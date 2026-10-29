@@ -1,0 +1,18 @@
+# ADR-003 Do not request optional hardware permissions
+
+### Status
+
+Decision accepted for Phase 2
+
+### Context
+
+The documented FairShare features need manual transaction and budget entry and charts. No source requires location, camera, audio, contacts, or biometrics.
+
+### Decisions
+
+The first version will use no optional device hardware or permissions. Users enter transaction details manually. Do not add GPS tagging, receipt scanning, microphone, speaker, fingerprint, or contacts access.
+
+### Consequences
+
+- Receipt scanning, location labels, and biometric unlock are excluded.
+- Revisit only if a later requirement justifies a specific permission.
